@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<title>Currículum Vitae - Reinaldo Porto</title>
+</head>
+<body>
+	<header>
+		<image src="../images/logo.svg" width="100px" height="100px"/>
+	</header>
+	<main>
+		<h1>Currículum Vitae</h1>
+		<h2>Reinaldo Arturo Porto Vengoechea</h2>
+		<h3>Fecha de Nacimiento: 15 de Enero de 1987</h3>
+		<h3>Lugar de Nacimiento: Barranquilla, Colombia.</h3>
+		<ul>
+			<li><a href="../index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educación</a></li>
+			<li><a href="experiencia.html">Experiencia</a></li>
+		</ul>
+		<h2>Educación</h2>
+		<table border="1">
+			<tr>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>¿Culminó?</th>
+			</tr>
+			<tr>
+				<td>2012</td>
+				<td>Universidad Autónoma del Caribe</td>
+				<td>Barranquilla, Colombia</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2007</td>
+				<td>SENA</td>
+				<td>Barranquilla, Colombia</td>
+				<td>Si</td>
+			</tr>
+		</table>
+		<h2>Agregar Estudios</h2>
+		<form name="addStudies" id="addStudies">
+			<label for="year"><strong>Año:</strong></label>
+			<select id="year">
+				<option>Seleccionar</option>
+				<option>2000</option>
+				<option>2001</option>
+				<option>2002</option>
+				<option>2003</option>
+				<option>2004</option>
+				<option>2005</option>
+				<option>2006</option>
+				<option>2007</option>
+				<option>2008</option>
+				<option>2009</option>
+				<option>2010</option>
+				<option>2012</option>
+				<option>2013</option>
+				<option>2014</option>
+				<option>2015</option>
+				<option>2016</option>
+				<option>2017</option>
+			</select>
+			<br/><br/>
+			<label for="institution"><strong>Institución:</strong></label>
+			<input type="text" name="institution" id="institution" required re>
+			<br/><br/>
+			<label for="pĺace"><strong>Lugar:</strong></label>
+			<textarea id="place" rows="4" cols="24"></textarea>
+			<br/><br/>
+			<lable><strong>¿Culminó?</strong></lable>
+			<input type="radio" id="yesRadio" name="culmino" value="Si"><label for="yesRadio">Si</label>
+			<input type="radio" id="noRadio" name="culmino" value="No"><label for="noRadio">No</label>
+			<br/><br/>
+			<input type="submit" name="submit" value="Enviar">
+		</form>
+	</main>
+	<footer>
+		<p>Copyright © 2018</p>
+		<ul>
+			<li><strong>Email:</strong> reinaldo.porto.1987@gmail.com</li>
+			<li><strong>Cel.:</strong> +569 3248 5349</li>
+			<li><strong>Dirección:</strong> Exequiel Fernández 2324, Satiago de Chile, Comuna Macul.</li>
+		</ul>
+	</footer>
+</body>
+</html>
